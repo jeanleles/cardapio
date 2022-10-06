@@ -18,14 +18,32 @@ const Home: NextPage = () => {
       <main className="flex items-start w-[1010px] py-6 mt-14">
         <Aside />
         <div className='flex flex-col'>
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
-        <MenuItem />
+          <ul className='flex w-full bg-slate-600'>
+            <li>
+              <a href="#" className='p-4 text-lg text-white font-bold'>Carnes</a>
+            </li>
+            <li>
+              <a href="#" className='p-4 text-lg text-white font-bold'>Entradas</a>
+            </li>
+            <li>
+              <a href="#" className='p-4 text-lg text-white font-bold'>Acompanhamentos</a>
+            </li>
+            <li>
+              <a href="#" className='p-4 text-lg text-white font-bold'>Porções</a>
+            </li>
+            <li>
+              <a href="#" className='p-4 text-lg text-white font-bold'>Bebidas</a>
+            </li>
+          </ul>
+          <h2 className='text-2xl text-white uppercase font-bold my-2'>Carnes</h2>
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
         </div>
       </main>
 

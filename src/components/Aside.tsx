@@ -4,7 +4,7 @@ export function Aside() {
         <aside className='bg-[#252727] mr-4 p-5 flex flex-col items-center text-center rounded-md'>
             <div className='flex flex-col items-center border-b border-slate-400 pb-4'>
                 <img src="/logo-sol.png" className='w-40' alt="logo-cse" />
-                <h2 className='font-bold text-3xl text-[#F4F2ED] mb-5'>Carne de Sol do Edu</h2>
+                <h1 className='font-bold text-3xl text-[#FAE374] mb-5'>Carne de Sol do Edu</h1>
                 <p>Siga-nos nas redes sociais</p>
                 <ul className='flex justify-around w-full m-2 px-5'>
                     <li className='px-4'>
@@ -34,7 +34,7 @@ export function Aside() {
                     <img src="/whatsapp.png" alt="whatsapp" />
                     Chama no Zap
                 </button>
-                <button type="submit" className='bg-[#F0D870] text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-[#e9c72f]'>
+                <button type="submit" className='bg-[#2C7BE8] text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-[#e9c72f]'>
                     <img src="/phone-call.png" alt="telefone" />
                     Ligar
                 </button>
@@ -45,7 +45,7 @@ export function Aside() {
                     Praça Minas Gerais, Jardim Ana Lúcia<br />
                     74.315-220 - Goiânia-GO
                 </p>
-                <button type="submit" className='bg-orange-400 text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-emerald-700'>
+                <button type="submit" className='bg-[#e91640] text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-[#F05D7A]'>
                     <img src="/local.png" alt="localização" />
                     Localização
                 </button>

@@ -5,7 +5,7 @@ export function Header() {
             <div className='w-[1010px] flex justify-between items-center'>
                 <a href="#" className="flex items-center">
                     <img src="/logo-sol.png" className="w-[70px] py-2" alt="Logo Carne de Sol do Edu" />
-                    <h1 className="font-bold text-2xl sm:block">Carne de Sol do Edu</h1>
+                    <h1 className="font-bold text-4xl text-[#FAE374] sm:block">Carne de Sol do Edu</h1>
                 </a>
                 <div className="border rounded-md p-1 flex items-center">
                     <input type="search" className="bg-transparent outline-none px-1" placeholder="Pesquisar..." />
