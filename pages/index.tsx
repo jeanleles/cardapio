@@ -6,7 +6,11 @@ import { Header } from '../src/components/Header'
 import { ItemMenu } from '../src/components/ItemMenu'
 import { MenuTop } from '../src/components/MenuTop'
 
-const Home: NextPage = () => {
+import { GraphQLClient } from 'graphql-request'
+
+
+
+const Home = () => {
   return (
     <div className="flex min-h-screen flex-col items-center w-full">
       <Head>

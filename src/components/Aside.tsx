@@ -26,14 +26,14 @@ export function Aside() {
                     </ul>
                 </div>
                 <div className='flex flex-col items-center border-b border-[#575c5c] p-4'>
-                    <button type="submit" className='bg-[#2bc48a] text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-[#51e4ab]'>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5562983432898" className='bg-[#2bc48a] text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-[#51e4ab]' target="_blank">
                         <img src="/whatsapp.png" alt="whatsapp" />
                         Chama no Zap
-                    </button>
-                    <button type="submit" className='bg-sky-800 text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-sky-600'>
+                    </a>
+                    <a href="tel:6232741039" className='bg-sky-800 text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-sky-600'>
                         <img src="/phone-call.png" alt="telefone" />
                         Ligar
-                    </button>
+                    </a>
                 </div>
                 <div className='flex flex-col items-center p-4'>
                     <p>
@@ -41,10 +41,12 @@ export function Aside() {
                         Praça Minas Gerais, Jardim Ana Lúcia<br />
                         74.315-220 - Goiânia-GO
                     </p>
-                    <button type="submit" className='bg-violet-900 text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-violet-700'>
+                    <a href="https://www.google.com/maps/place/Carne+de+Sol+do+Edu/@-16.7002322,-49.3106263,17z/data=!4m5!3m4!1s0x935ef69141aa6f47:0x4abcdad4bf127b5e!8m2!3d-16.700285!4d-49.310606?hl=pt-BR"
+                        className='bg-violet-900 text-white w-[250px] px-8 m-2 h-12 font-semibold flex items-center justify-center gap-2 rounded-md hover:bg-violet-700' 
+                        target="_blank">
                         <img src="/local.png" alt="localização" />
                         Localização
-                    </button>
+                    </a>
                 </div>
             </div>
         </aside>

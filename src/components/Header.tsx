@@ -14,12 +14,12 @@ export function Header() {
                     </button>
                 </div>
                 <ul className='flex'>
-                    <li className='px-4'>
+                    <li className='px-4 hover:opacity-80'>
                         <a href="tel:6232741039">
                             <img src="/phone-call.png" alt="telefone-cse" />
                         </a>
                     </li>
-                    <li className='px-2'>
+                    <li className='px-2 hover:opacity-80'>
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5562983432898" target="_blank">
                             <img src="/whatsapp.png" alt="whatsapp-cse" />
                         </a>
