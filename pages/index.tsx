@@ -15,6 +15,9 @@ interface CarnesProps {
     title: string,
     description: string,
     price: string,
+    photo: [
+      url: string
+    ]
   ]
 }
 
@@ -73,7 +76,7 @@ const Home = ({ carnes }: CarnesProps) => {
                   <p className='text-xs text-slate-300 md:text-base'>{carne.description}</p>
                   <h2 className='text-sm md:text-lg  text-[#FAE374]'>{carne.price}</h2>
                 </div>
-                <img src="/CSE01.jpg" alt="carne de sol" className='w-[140px] rounded-tr-lg rounded-br-lg' />
+                <img src={carne.photo.url} alt="carne de sol" className='w-[140px] rounded-tr-lg rounded-br-lg' />
               </div>
             ))
           }
