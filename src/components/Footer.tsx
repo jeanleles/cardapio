@@ -7,7 +7,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Carne de Sol do Edu 2022 | Powered by Trynweb
+                Carne de Sol do Edu 2022 | by Trynweb
             </a>
         </footer>
     )
