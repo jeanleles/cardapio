@@ -1,7 +1,7 @@
 
 export function Aside() {
     return (
-        <aside className='bg-[#252727] mr-4 flex flex-col w-full items-center order-last text-center rounded-md lg:order-first'>
+        <aside className='bg-[#252727] mr-4 flex flex-col w-full items-center order-last text-center rounded-md lg:w-[300px] lg:order-first'>
             <img src="/fachada.jpg" className='w-full rounded-t-md' alt="fachada" />
 
             <div className="p-5 flex flex-col items-center text-center">
@@ -38,7 +38,8 @@ export function Aside() {
                 <div className='flex flex-col items-center p-4'>
                     <p>
                         Rua Ouro Preto, 413, Qd. 17, Lt. 2<br />
-                        Praça Minas Gerais, Jardim Ana Lúcia<br />
+                        Praça Minas Gerais,<br /> 
+                        Jardim Ana Lúcia<br />
                         74.315-220 - Goiânia-GO
                     </p>
                     <a href="https://www.google.com/maps/place/Carne+de+Sol+do+Edu/@-16.7002322,-49.3106263,17z/data=!4m5!3m4!1s0x935ef69141aa6f47:0x4abcdad4bf127b5e!8m2!3d-16.700285!4d-49.310606?hl=pt-BR"
