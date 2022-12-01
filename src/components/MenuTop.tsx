@@ -1,12 +1,14 @@
+import { Link } from 'react-scroll'
+
 export function MenuTop() {
     return (
-        <div className='flex flex-nowrap justify-start w-full bg-[#121619] uppercase text-[#FAE374] overflow-auto sticky top-[60px] md:justify-around'>
-            <a href="#carnes" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Carnes</a>
-            <a href="#entradas" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Entradas</a>
-            <a href="#acompanhamentos" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Acompanhamentos</a>
-            <a href="#porcoes" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Porções</a>
-            <a href="#bebidas" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Bebidas</a>
-            <a href="#sobremesas" className='text-lg font-bold m-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Sobremesas</a>
+        <div className='flex flex-nowrap justify-start w-full bg-[#121619] uppercase text-[#FAE374] overflow-auto sticky top-[60px] md:justify-between'>
+            <Link to="carnes" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Carnes</Link>
+            <Link to="entradas" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Entradas</Link>
+            <Link to="acompanhamentos" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Acompanhamentos</Link>
+            <Link to="porcoes" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Porções</Link>
+            <Link to="bebidas" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Bebidas</Link>
+            <Link to="sobremesas" spy={true} smooth={true} offset={-120} duration={500} className='text-base font-bold cursor-pointer mt-1 mb-1 p-2 bg-[#252727] rounded-lg hover:bg-[#4a4d4d]'>Sobremesas</Link>
         </div>
     )
 }

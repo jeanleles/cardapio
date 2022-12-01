@@ -68,11 +68,11 @@ const Home = ({ cardapios }: CardProps) => {
 
       <Header />
 
-      <main className="flex flex-col items-start justify-center px-2 py-6 mt-14 w-full lg:flex-row lg:w-[1100px]">
+      <main className="flex flex-col items-start justify-center px-2 py-6 mt-14 w-full lg:flex-row lg:w-[1020px]">
         <Aside />
         <div className='flex flex-col w-full'>
           <MenuTop />
-          <h2 id='#carnes' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Carnes</h2>
+          <h2 id='carnes' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Carnes</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Carnes') {
@@ -91,7 +91,7 @@ const Home = ({ cardapios }: CardProps) => {
             )
           }
 
-          <h2 id='#entradas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Entradas</h2>
+          <h2 id='entradas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Entradas</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Entradas') {
@@ -110,7 +110,7 @@ const Home = ({ cardapios }: CardProps) => {
             )
           }
 
-          <h2 id='#acompanhamentos' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Acompanhamentos</h2>
+          <h2 id='acompanhamentos' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Acompanhamentos</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Acompanhamentos') {
@@ -129,7 +129,7 @@ const Home = ({ cardapios }: CardProps) => {
             )
           }
 
-          <h2 id='#porcoes' className='text-2xl text-white uppercase font-bold my-2' mx-1>Porções</h2>
+          <h2 id='porcoes' className='text-2xl text-white uppercase font-bold my-2' mx-1>Porções</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Porções') {
@@ -148,7 +148,7 @@ const Home = ({ cardapios }: CardProps) => {
             )
           }
 
-          <h2 id='#bebidas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Bebidas</h2>
+          <h2 id='bebidas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Bebidas</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Bebidas') {
@@ -167,7 +167,7 @@ const Home = ({ cardapios }: CardProps) => {
             )
           }
 
-          <h2 id='#sobremesas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Sobremesas</h2>
+          <h2 id='sobremesas' className='text-2xl text-white uppercase font-bold my-2 mx-1'>Sobremesas</h2>
           {
             cardapios.map(item => {
               if (item.categoria.title === 'Sobremesas') {
