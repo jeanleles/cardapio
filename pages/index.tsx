@@ -5,6 +5,7 @@ import { Footer } from '../src/components/Footer'
 import { Header } from '../src/components/Header'
 import { ItemMenu } from '../src/components/ItemMenu'
 import { MenuTop } from '../src/components/MenuTop'
+import { Link } from 'react-scroll'
 
 import { GraphQLClient } from 'graphql-request'
 
@@ -187,6 +188,10 @@ const Home = ({ cardapios }: CardProps) => {
           }
         </div>
       </main>
+
+      <Link to="carnes" spy={true} smooth={true} offset={-140} duration={500}>
+        <button className=' bg-[#FAE374] p-2 bottom-4 right-4 fixed border-none rounded-full' ><img src="/back-to-top.png" alt="to top" /></button>
+      </Link>
 
       <Footer />
     </div>
