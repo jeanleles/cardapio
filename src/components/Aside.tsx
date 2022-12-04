@@ -1,7 +1,7 @@
 
 export function Aside() {
     return (
-        <aside className='bg-[#252727] mr-4 flex flex-col w-full items-center order-last text-center rounded-md lg:w-[300px] lg:order-first lg:sticky lg:top-[68px]'>
+        <aside className='bg-[#252727] mr-4 mt-3 flex flex-col w-full items-center order-last text-center rounded-md lg:w-[300px] lg:order-first lg:sticky lg:top-[70px]'>
             <img src="/fachada.jpg" className='w-full rounded-t-md' alt="fachada" />
 
             <div className="p-5 flex flex-col items-center text-center">

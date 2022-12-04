@@ -26,9 +26,8 @@ interface CardProps {
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const hygraph = new GraphQLClient(
-    'https://api-sa-east-1.hygraph.com/v2/cl8kvkg2w263601ulgfni5j80/master'
-  );
+  const hygraphAPI = process.env.NEXT_PUPBLIC_HYGRAPH_ENDPOINT
+  const hygraph = new GraphQLClient(`${hygraphAPI}`);
 
   //CARNES
   const { cardapios } = await hygraph.request(
@@ -190,7 +189,7 @@ const Home = ({ cardapios }: CardProps) => {
       </main>
 
       <Link to="carnes" spy={true} smooth={true} offset={-140} duration={500}>
-        <button className=' bg-[#FAE374] p-2 bottom-4 right-4 fixed border-none rounded-full' ><img src="/back-to-top.png" alt="to top" /></button>
+        <button className=' bg-[#FAE374] p-2 bottom-4 right-4 fixed border-none rounded-full hover:bg-amber-400 transition-all'><img src="/back-to-top.png" alt="to top" /></button>
       </Link>
 
       <Footer />
